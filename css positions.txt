@@ -1,0 +1,23 @@
+static is default
+tells the element to follow whatever comes next
+
+relative 
+allows you to change top,bottom,left,right relative where it normally statically
+in general u dont use top,bottom,left,right 
+
+absolute
+always used with top,bottom,left,right
+absolute moves it from top of the screen
+because it removes it from the document flow
+
+parent uses relative 
+so that children uses it as it's position
+
+fixed is similar to absolute
+fixed is based on the html 
+they stay ontop no matter
+
+sticky is relative and fixed position together
+good for making nav bars.
+it stays relative intill you scroll down
+then it becomes fixed
